@@ -1,0 +1,52 @@
+
+
+POST http://localhost:3000/api/services
+Content-Type: application/json
+    
+   {
+      "name": "Decoração",
+      "description": "Escolha a decoração para sua festa, e nós a montamos.",
+      "price": 1400,
+      "image": "https://images.unsplash.com/photo-1478146059778-26028b07395a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=892&q=80"
+    }
+
+
+###
+
+GET http://localhost:3000/api/services
+
+###
+
+GET http://localhost:3000/api/services/507f1f77bcf86cd799439011
+
+###
+
+DELETE http://localhost:3000/api/services/66fdd9cfea0dfc62e1596537
+
+###
+
+PUT http://localhost:3000/api/services/66fddfa407f2b63620c829fe
+Content-Type: application/json
+
+###
+
+POST http://localhost:3000/api/parties
+Content-Type: application/application/json
+
+###
+
+GET http://localhost:3000/api/parties
+
+###
+
+GET http://localhost:3000/api/parties/66ff35463f1a64e58e0c87a4
+
+###
+
+DELETE http://localhost:3000/api/parties/6701445f14bd2542c1e8c348
+
+###
+
+PUT http://localhost:3000/api/parties/66ff35463f1a64e58e0c87a4
+Content-Type: application/json
+
